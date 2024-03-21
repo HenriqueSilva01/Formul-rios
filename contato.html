@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style_form.css">
+    <title>Contato</title>
+</head>
+<body>
+    <div id="corpo">
+        <header>
+            <h1>Loja de Hardware</h1>
+        </header>
+        <main>
+            <form action="outra_pagina.html" method="get">
+                <fieldset>
+                    <legend>Contato</legend>
+                    <label class="label-50">
+                        Nome: <input type="text" name="txt_nome_contato" placeholder="Seu nome completo" required />
+                    </label>
+                    <label class="label-50">
+                        E-mail: <input type="email" name="txt_email_contato" placeholder="exemple@exemple.com" required />
+                    </label>
+                    <label class="label-50">
+                        Telefone: <input type="tel" name="txt_telefone_contato" placeholder="(00)0000-0000" required />
+                    </label>
+                    <label class="label-50">
+                        Celular: <input type="number" name="txt_celular_contato" placeholder="(00)00000-0000" required />
+                    </label>
+                    <label>
+                        Assunto: <input type="text" name="txt_nome_contato" placeholder="Seu nome completo" required />
+                    </label>
+                    <label>
+                        Menssagem: <textarea name="txt_menssagem_contato"  cols="30" rows="10"></textarea>
+                    </label>
+                </fieldset>
+
+                <p class="center">
+                <button type="submit" class="botao-enviar">Enviar</button>
+                <button type="reset">Cancelar</button>
+                </p>
+            </form>
+        </main>
+        <footer>
+            Loja de Hardware Ltda
+            <address>
+                Rua da Fatec, 286 - Jaú -<abbr title="São Paulo- Brasil">SP</abbr>
+            </address>
+        </footer>
+    </div>
+</body>
+</html>
